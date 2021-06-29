@@ -4,8 +4,8 @@ from django.db import models
 
 
 class Location(models.Model):
-    latitude = models.DecimalField(max_digits=19, decimal_places=10)
-    longitude = models.DecimalField(max_digits=19, decimal_places=10)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
 
     def __str__(self):
         return f"Latitude: {self.latitude}, Longitude: {self.longitude}."
