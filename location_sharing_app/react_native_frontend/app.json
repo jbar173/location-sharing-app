@@ -1,0 +1,12 @@
+{
+  "name": "location-sharing",
+  "displayName": "location-sharing",
+  "expo": {
+    "name": "location-sharing",
+    "slug": "location-sharing",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
